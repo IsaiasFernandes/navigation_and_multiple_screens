@@ -1,5 +1,8 @@
 
+
 import 'dart:ui';
+
+import 'package:flutter/material.dart';
 
 class Category {
   final String id;
@@ -9,7 +12,7 @@ class Category {
   const Category({
     required this.id,
     required this.title,
-    required this.color,
+     this.color = Colors.orange,
   });
 
   Map<String, Object> toMap() {

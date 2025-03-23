@@ -9,8 +9,6 @@ class CategoriesScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
-        foregroundColor: Colors.white,
         centerTitle: true,
         title: Text('Vamos Cozinhar?'),
       ),

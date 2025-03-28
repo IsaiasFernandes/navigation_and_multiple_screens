@@ -9,10 +9,10 @@ class MealItem extends StatelessWidget {
   const MealItem(this.meal);
 
   void _selectMeal(BuildContext context) {
-    /*Navigator.of(context).pushNamed(
+    Navigator.of(context).pushNamed(
       AppRoutes.MEAL_DETAIL,
       arguments: meal,
-    );*/
+    );
   }
 
   @override
@@ -43,7 +43,7 @@ class MealItem extends StatelessWidget {
                   bottom: 20,
                   right: 10,
                   child: Container(
-                    width: double.infinity,
+                    width: 300,
                     color: Colors.black54,
                     padding: const EdgeInsets.symmetric(
                       vertical: 5,
